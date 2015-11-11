@@ -1,0 +1,9 @@
+.idea
+ebin
+rel/chat
+*.beam
+*~
+deps
+erl_crash.dump
+*/#*#
+#*#

@@ -1,0 +1,13 @@
+{application, chat,
+  [
+    {description, "An erlang chat application."},
+    {vsn, "0.1.0"},
+    {registered, []},
+    {applications, [
+      kernel,
+      stdlib,
+      lager
+    ]},
+    {mod, { chat_app, []}},
+    {env, []}
+  ]}.
